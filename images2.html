@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        img {
+            margin: 20px;
+            border: 2px solid blue;
+            transition: width 0.3s, height 0.3s, border 0.3s; /* Smooth transition */
+        }
+        .c1:hover, .c2:hover, .c3:hover {
+            width: 200px;
+            height: 150px;
+            border: 2px solid red;
+        }
+        fieldset {
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid gray;
+        }
+        marquee {
+            margin: 20px;
+            font-size: 18px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <marquee>Welcome to the Image Gallery! Click the images below to learn more.</marquee>
+
+    <fieldset>
+        <legend>Image Links</legend>
+        <a href="https://example.com/image1" target="_blank">
+            <img width="150px" height="100px" src="image1.png" alt="Image 1" class="c1">
+        </a>
+        <a href="https://example.com/image2" target="_blank">
+            <img width="150px" height="100px" src="image2.png" alt="Image 2" class="c2">
+        </a>
+        <a href="https://example.com/image3" target="_blank">
+            <img width="150px" height="100px" src="image3.png" alt="Image 3" class="c3">
+        </a>
+    </fieldset>
+
+</body>
+</html>
